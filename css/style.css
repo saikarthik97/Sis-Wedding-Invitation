@@ -427,13 +427,8 @@ img {
 }
 
 .wrap {
-	display: -webkit-flex;
 	display: flex;
-	-webkit-flex-wrap: wrap;
-	flex-wrap: wrap;
-	-webkit-justify-content: center;
 	justify-content: center;
-	-webkit-align-items: center;
 	align-items: center;
 	/* padding: 20px; */
 	text-align: center;
@@ -460,15 +455,6 @@ body {
 
 .title {
 	margin-bottom: 40px;
-}
-
-#time {
-	width: auto;
-	height: auto;
-	padding: 20px;
-	background-color: #eee;
-	border-radius: 20px;
-	font-size: 16px;
 }
 
 .venue {
@@ -521,12 +507,12 @@ body {
 }
 
 .date {
-	color: #874562;
+	color: blue;
 	font-weight: 900;
 }
 
 .place {
-	color: #874562;
+	color: blue;
 	font-weight: 900;
 }
 
@@ -576,4 +562,50 @@ a {
 	display: flex;
 	font-size: 12px;
 	letter-spacing: 0pt;
+}
+.font-esthetic {
+    font-family:'Fantasy', cursive !important;
+    color: #111111 !important;
+    text-align: center;
+}
+
+.font-arabic {
+    font-family: 'Fantasy', cursive !important;
+    color: #111111 !important;
+}
+.spin-button {
+    animation: spin-icon 5s linear infinite;
+}
+.responsive {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+.btn-music {
+    position: fixed;
+    bottom: 9vh !important;
+    right: 2vh !important;
+    z-index: 1055 !important;
+}
+html {
+    scroll-behavior: smooth !important;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif !important;
+    padding: 0 !important;
+    -ms-overflow-style: none !important;
+    scrollbar-width: none !important;
+}
+
+body::-webkit-scrollbar {
+    display: none !important;
+}
+.reception{
+    font-family:'Fantasy', cursive !important;
+    color: red !important;
+    text-align: center;
+}
+.spin-button {
+    animation: spin-icon 5s linear infinite;
 }

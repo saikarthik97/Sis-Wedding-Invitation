@@ -11,8 +11,10 @@
 })(jQuery);
 
 $(document).on('click', function(){
-    let audio = document.getElementById("emaina manchi Audio BGM add cheyyu ra").play();
+    let audio = document.getElementById("my_audio");
+    audio.muted = false;
     audio.volume = 0.2;
+    audio.play();
 });
 
 var styles = [
